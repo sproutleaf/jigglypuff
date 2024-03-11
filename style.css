@@ -1,0 +1,52 @@
+#secret {
+    display: none;
+}
+
+#intro {
+    padding-top: 8vh;
+    text-align: center;
+    font-size: 4vh;
+    color: wheat;
+}
+
+#bottomleft,
+#bottomright {
+    position: fixed;
+    bottom: 3vh;
+    width: 9vw;
+    min-width: 90px;
+    max-width: 300px;
+    height: 9vh;
+    z-index: 10000;
+}
+
+#bottomleft {
+    background-color: red;
+    left: 3vw;
+}
+
+#bottomright {
+    background-color: blue;
+    right: 3vw;
+}
+
+#ascii-jigglypuff {
+    color: wheat;
+}
+
+.jigglypuff {
+    width: 9vw;
+    min-width: 90px;
+    max-width: 300px;
+    height: 9vh;
+}
+
+@media (max-width: 600px) {
+    #secret {
+        display: inline;
+    }
+
+    body {
+        background-color: green;
+    }
+}
